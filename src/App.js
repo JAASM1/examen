@@ -1,8 +1,15 @@
+import React from "react";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import ListPlant from "./Componentes/ApiLisPlant";
 function App() {
   return (
-    <div className="App">
-      <h1 className=""></h1>
-    </div>
+    <BrowserRouter>
+      <div>
+        <Routes>
+          <Route path="/" element={<ListPlant />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
