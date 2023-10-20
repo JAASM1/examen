@@ -8,9 +8,6 @@ function App() {
     <Encabezado/>
     <Nav/>
     <Footer/>
-    <div className="App">
-      <h1 className=""></h1>
-    </div>
     </>
 
   );
