@@ -1,10 +1,9 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
 function Footer(){
     return (
         <>
-        <div class="container">
-        <p class="float-right">
+        <div ClassName="container">
+        <p ClassName="float-right">
           <a href="#">Back to top</a>
         </p>
         <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
