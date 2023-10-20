@@ -10,5 +10,4 @@ function Footer() {
     )
 }
 
-// 4. Exportar el modulo
 export default Footer;
